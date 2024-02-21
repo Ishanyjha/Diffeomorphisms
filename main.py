@@ -43,7 +43,7 @@ def is_diffeomorphism(surface1, surface2, transformation, domain):
     return True, "The function is a diffeomorphism."
 
 
-surface1 = "x - y"
+surface1 = "sin(y)+2x"
 surface2 = "x + y**2"
 transformation = transformation = ("sin(x)"), ("sin(y)")
 domain = [(0, 0), (1, 1), (-1, -1)]  
